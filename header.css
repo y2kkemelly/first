@@ -26,11 +26,14 @@ position: relative;
             top: 100%;
             width: 60vw;
 }
-            .container__botao:checked ~ .lista-menu {
+            .container__botao:checked ~ 
+            display: none;
+            .lista-menu {
                 display: block;
                 }
                 .lista-menu__titulo,
                     color: var(--laranja);
+                    font-weight: 700;
 .lista-menu__item {
 padding: 1em;
 background-color: var(--branco);
